@@ -92,7 +92,7 @@
 /*             end section two        */
 
 /*              section three         */
-@media (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 550px) {
   .class01 {
       font-size: 16px;
   }
@@ -149,7 +149,7 @@
   box-shadow: -0px -0px 12px 2px whitesmoke;
   }
 }
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 550px) and (max-width: 800px) {
   .class01 {
       font-size: 16px;
   }

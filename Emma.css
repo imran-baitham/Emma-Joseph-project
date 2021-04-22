@@ -17,22 +17,22 @@
 .emma .heloo {
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 20%;
   word-spacing: 7px;
-  line-height: 30px;
+  line-height: 40px;
   letter-spacing: 2px;
   font-family: 'Lato', sans-serif;
 }
 .emma .joseph {
   color: white;
   text-align: center;
-  font-size: 60px;
+  font-size: 75px;
   padding-bottom: 20%;
   word-spacing: 4px;
   letter-spacing: 3px;
-  line-height: 100px;
-  font-family: 'Noto Sans', sans-serif;
+  line-height: 125px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 /*                   end section one               */
 
@@ -55,14 +55,14 @@
   box-shadow: rgb(153, 153, 153) 0px 10px 40px 0px;
 }
 .IMG img{
-  width: 80%;
-  height: 85%;
-  padding: 10% 10%;
+  width: 78%;
+  height: 82%;
+  padding: 11% 14%;
   border-radius: 50%;
 }
 .IMG{
   display: flex;
-  width: 40%;
+  width: 33%;
   height: auto;
   padding-bottom: 13px;
 }
@@ -79,10 +79,10 @@
   font-family: 'Dancing Script', cursive;
 }
 .span-icon i{
-   margin-top: 30px;
-   margin-left: 5px;
+   margin-top: 15px;
+   margin-bottom: 1%;
    border: 1px solid rgb(0, 0, 0,0.0);
-   padding: 16px;
+   padding: 13px;
    border-radius: 50%;
    background-color: whitesmoke;
 }
@@ -116,7 +116,9 @@ hr {
   margin-top: 2%;
 }
 .six-dives {
-  width: 98%;
+  /* background-color: blueviolet; */
+  width: 90%;
+  margin: 0% auto;
   padding-top: 40px;
 }
 .dives-one {
@@ -130,54 +132,49 @@ hr {
   width: 95%;
 }
 .img-div img {
+  /* background-color: blueviolet; */
   width: 90%;
-  height: 40vh;
+  height: 37vh;
   margin-bottom: 40px;
 }
 /*                          images -six                */
 .img-div .imagess {
   background-image: url(images/download\ \(6\).jpeg);
-  background-repeat: no-repeat;
   background-size: cover;
   width: 90%;
-  height: 40vh;
+  height: 36vh;
 }
 .img-div .imagess-two {
   background-image: url(images/images.jpeg);
-  background-repeat: no-repeat;
   background-size: cover;
   width: 90%;
-  height: 40vh;
+  height: 36vh;
 }
 .img-div .imagess-three {
   background-image: url(images/imo.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
   width: 90%;
-  height: 40vh;
+  height: 36vh;
 }
 .img-div .imagess-fore {
   background-image: url(images/images\ \(6\).jpeg);
-  background-repeat: no-repeat;
   background-size: cover;
   width: 90%;
-  height: 40vh;
+  height: 36vh;
   margin-bottom: 40px;
 }
 .img-div .imagess-five {
   background-image: url(images/download\ \(7\).jpeg);
-  background-repeat: no-repeat;
   background-size: cover;
   width: 90%;
-  height: 40vh;
+  height: 36vh;
   margin-bottom: 40px;
 }
 .img-div .imagess-six {
   background-image: url(images/images\ laptop.jpeg);
-  background-repeat: no-repeat;
   background-size: cover;
   width: 90%;
-  height: 40vh;
+  height: 36vh;
   margin-bottom: 40px;
 }
 .click-button {
@@ -192,6 +189,7 @@ hr {
   align-items: center;
   margin-top: 29%;
   box-shadow: -0px -0px 12px 2px whitesmoke;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btn-button{
@@ -226,66 +224,77 @@ hr {
   width: 95%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-left: 4%;
 }
 .img-div-box {
-  width: 48%;
+  width: 45%;
   height: auto;
   margin-bottom: 40px;
   border: 1px solid rgb(231, 231, 231);
   background-color: white;
+  margin-left: 2%;
 }
 .heading-edu {
   margin: 1%;
   padding-top: 4%;
-  font-size: 150%;
+  font-size: 160%;
   padding-bottom: 3%;
-  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .img-div-box-edu {
-  width: 48%;
+  width: 45%;
   height: auto;
+  margin-left: 2%;
+  text-align: left;
   margin-bottom: 10px;
   background-color: whitesmoke;
 }
 .heading {
-  margin: 3%;
-  font-size: 170%;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 4% 4%;
+  font-size: 140%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .date {
   width: 30%;
   line-height: 25px;
-  margin: 3%;
+  margin:4%;
   color: white;
   font-size: small;
   border-radius: 4px;
   padding-left: 2%;
   background-color: rgb(130, 130, 255);
+  font-family: Arial, Helvetica, sans-serif;
 }
 .pgrf {
-  margin: 3%;
+  margin: 4% 4%;
   font-size: 130%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 /*   skills and codings    */
 .img-div-box {
   list-style: none;
 }
 .skills {
-  margin: 5% 3%;
+  margin: 2% 3%;
 }
 .skills li {
-  margin: 6% 0px;
+  margin: 5.5% 0px;
+}
+.skills li h3{
+  font-size: 18px;
+  padding-bottom: 1%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .bar {
-  background: rgb(221, 221, 221);
+  background: rgb(241, 241, 241);
   display: block;
-  height: 5px;
+  height: 3px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 0 10px #e2e2e2b3;
+  box-shadow: 0 0 10px #f3f3f3;
 }
 .bar span {
   height: 5px;
@@ -323,9 +332,10 @@ hr {
   justify-content: center;
 }
 .nav a {
-  font-size: 17px;
+  font-size: 16px;
   color: black;
   text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
 }
 ul li{
   padding: 6px;
@@ -393,9 +403,13 @@ ul li{
   margin-left: 35%;
 }
 .para-client {
-  line-height: 125%;
-  font-size: 21px;
+  line-height: 128%;
+  font-size: 19px;
+  letter-spacing: 1%;
+  word-spacing: 1%;
   text-align: center;
+  line-height: 27px;
+font-family: 'Marcellus', serif;
 }
 .h3-head {
   padding-top: 6%;
@@ -419,8 +433,8 @@ ul li{
   font-size: xx-large;
   padding-top: 10%;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.9px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .class-hr {
   width: 20%;
@@ -428,14 +442,14 @@ ul li{
   margin-bottom: 4%;
   color: rgba(241, 241, 241, 0.1);
 }
-.hire {
+.hire{
   padding: 18px 48px;
   color: white;
   border: 1px solid whitesmoke;
   background-color: rgb(114, 114, 114);
   display: flex;
   margin: 0% auto;
-
+  cursor: pointer;
 }
 /*                  end section six               */
 
@@ -465,24 +479,22 @@ ul li{
 .img-three .three {
   width: 90%;
   height: auto;
-  background-color: whitesmoke;
+  background-color: rgb(246, 247, 255);
 }
 .img-three img {
   width: 100%;
   height: 50vh;
 }
 .para-three {
-  font-size: 19px;
+  font-size: 18px;
   padding: 3% 5%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-family: 'Marcellus', serif;
 }
 .h5-head {
   padding: 5% 4%;
   padding-left: 42%;
   font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 /*      line style   */
 .line {
@@ -495,11 +507,11 @@ ul li{
 .bare {
   background: whitesmoke;
   display: block;
-  height: 5px;
+  height: 3px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 0 10px #e2e2e2b3;
+  box-shadow: 0 0 10px #e2e2e2;
 }
 .bare span {
   height: 5px;
@@ -512,9 +524,11 @@ ul li{
 .line-button {
   padding: 15px 58px;
   color: white;
-  border: 1px solid whitesmoke;
+  border: 1px solid blue;
   background-color: rgb(82, 79, 255);
   margin-left: 42%;
+  cursor: pointer;
+  box-shadow: -0px -0px 50px 1px rgb(205, 205, 255);
 }
 /*                  end section seven               */
 
@@ -681,6 +695,7 @@ textarea {
   font-size: 17px;
   padding-left: 20px;
   align-items: center;
+  box-shadow: -0px -0px 50px 1px rgb(205, 205, 255);
 }
 .btn-msg button:hover {
   background-color: rgb(243, 193, 193);
