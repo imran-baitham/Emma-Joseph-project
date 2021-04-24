@@ -68,14 +68,14 @@
     box-shadow: rgb(153, 153, 153) 0px 10px 40px 0px;
 }
 
-.IMG img {
+#img img {
     width: 78%;
     height: 82%;
     padding: 11% 14%;
     border-radius: 50%;
 }
 
-.IMG {
+#img {
     display: flex;
     width: 33%;
     height: auto;
@@ -128,7 +128,6 @@
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
     padding: 0;
     justify-content: center;
     list-style: none;
@@ -155,6 +154,12 @@
     background-color: white;
     cursor: pointer;
     font-family: 'Lato', sans-serif;
+}
+
+.line:hover {
+    background-color: rgb(192, 185, 255);
+    border: 1px solid rgb(166, 156, 255);
+    color: black;
 }
 
 #images0001 {
@@ -191,7 +196,7 @@
     width: 100%;
 }
 
-.class01 {
+.service span {
     text-align: center;
     font-size: 17px;
     line-height: 20px;
@@ -200,7 +205,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-.class02 {
+.title-head {
     text-align: center;
     font-size: 33px;
     line-height: 50px;
@@ -214,7 +219,7 @@ hr {
     margin-top: 2%;
 }
 
-.class01 {
+.title {
     text-align: center;
     font-size: 17px;
     line-height: 20px;
@@ -223,7 +228,7 @@ hr {
     font-family: 'Lato', sans-serif;
 }
 
-.class02 {
+.title-head {
     text-align: center;
     font-size: 33px;
     line-height: 50px;
@@ -296,7 +301,6 @@ hr {
     width: 95%;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     padding-left: 4%;
 }
 
@@ -526,10 +530,10 @@ ul li {
 }
 
 .h3-head {
-    padding-top: 6%;
+    padding-top: 4%;
     font-size: 13px;
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 6.2%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -569,6 +573,12 @@ ul li {
     display: flex;
     margin: 0% auto;
     cursor: pointer;
+}
+
+.hire:hover {
+    background-color: rgb(192, 185, 255);
+    border: 1px solid rgb(166, 156, 255);
+    color: black;
 }
 
 
@@ -668,6 +678,12 @@ ul li {
     margin-left: 42%;
     cursor: pointer;
     box-shadow: -0px -0px 50px 1px rgb(205, 205, 255);
+}
+
+.line-button:hover {
+    background-color: rgb(192, 185, 255);
+    border: 1px solid rgb(166, 156, 255);
+    color: black;
 }
 
 
@@ -785,7 +801,7 @@ ul li {
     padding-top: 8%;
 }
 
-.img-div-icon .IMG-THREE {
+.img-div-icon .three-icon {
     width: 90%;
     height: 31vh;
     background-color: white;
@@ -798,7 +814,7 @@ ul li {
     font-family: 'Marcellus', serif;
 }
 
-.IMG-THREE i {
+.three-icon i {
     font-size: 35px;
     padding: 8%;
     margin-left: 38%;
@@ -835,7 +851,7 @@ ul li {
     margin-top: 4%;
 }
 
-.Contact {
+.contact {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -843,7 +859,7 @@ ul li {
     justify-content: space-around;
 }
 
-.Contact .form {
+.contact .form {
     background-color: whitesmoke;
     width: 90%;
     display: flex;
@@ -877,8 +893,9 @@ textarea {
 }
 
 .btn-msg button:hover {
-    background-color: rgb(243, 193, 193);
-    color: red;
+    background-color: rgb(192, 185, 255);
+    border: 1px solid rgb(166, 156, 255);
+    color: black;
 }
 
 .btn-msg {
